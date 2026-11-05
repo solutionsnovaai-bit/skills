@@ -44,3 +44,18 @@ Skills originais de design de site, motion e vídeo, copiadas sem alteração do
 ## Atualizar
 
 `bash scripts/atualizar.sh` baixa a versão mais nova de cada origem e substitui as pastas. Depois é só commitar.
+
+## Skills de motion adicionadas em 04/11/2026
+
+Copiadas sem alteração, com a licença do autor dentro de cada pasta.
+
+| Skill | Origem | Licença | Pra quê |
+| --- | --- | --- | --- |
+| `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-plugins`, `gsap-utils`, `gsap-react`, `gsap-frameworks`, `gsap-performance` | greensock/gsap-skills (oficial da GSAP), commit aed9cfd | MIT | GSAP do jeito certo; todos os plugins (SplitText, MorphSVG) são grátis desde a compra pela Webflow |
+| `scroll-video-website` | musoyangrigor/scroll-video-website-skill, e61e534 | MIT | Vídeo (Kling, Higgsfield) virando sequência de frames WebP num canvas que roda com o scroll, estilo Apple |
+| `shader-for-interfaces` | v2space-labs/shader-for-interfaces, 08fe6fc | MIT | Decide CSS, SVG, Canvas ou WebGL e integra o shader na página com fallback |
+| `web-shaders` | owenob1/web-shaders-agent-kit, f027758 | MIT | GLSL/WGSL, Three.js e R3F sem os erros silenciosos |
+| `three-best-practices`, `r3f-best-practices` | emalorenzo/three-agent-skills, f950f95 | MIT (declarada no package.json e no SKILL.md) | Desempenho de Three.js e React Three Fiber |
+| `rive-web`, `rive-react` | stevysmith/rive-skills, 2f426a1 | MIT | Runtime do Rive (o que o Lando Norris usa na transição e na assinatura) |
+
+Olhadas e deixadas de fora: cinematic-scrub-landing (hoodini; fórmula pronta de fonte e seção que bate de frente com a taste-skill), freshtechbro/claudedesignskills e iart-ai/web-animation-skills (genéricas), OpenAEC Three.js (24 skills, sobreposta à three-best-practices).

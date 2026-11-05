@@ -7,6 +7,10 @@ As pastas de `.claude/skills/` são as skills originais dos autores, sem altera�
 1. **Use todas as skills, as de design e as de desempenho**, cada uma na sua etapa:
    - Direção e construção: `taste-skill` e `impeccable`
    - Motion e polimento: `apple-design`, `emil-design-eng`, `animate`, `choreograph`, `review-animations`
+   - GSAP (skills oficiais da GreenSock): `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-plugins`, `gsap-utils`, `gsap-react`, `gsap-frameworks`, `gsap-performance`
+   - Vídeo controlado pelo scroll (Kling, Higgsfield): `scroll-video-website`
+   - 3D e shader: `three-best-practices`, `r3f-best-practices`, `shader-for-interfaces`, `web-shaders`
+   - Rive (animação interativa): `rive-web`, `rive-react`
    - Desempenho: `animation-performance`, `remove-animations`, `mobile-native`
    - Auditoria antes de entregar: `web-design-guidelines` e `break-ui`
    - Conferência no navegador, celular e desktop: `playwright-cli`
