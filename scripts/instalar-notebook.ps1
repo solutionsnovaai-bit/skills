@@ -9,3 +9,12 @@ robocopy (Join-Path $repo ".claude\skills") $dest /E /NFL /NDL /NJH /NJS /NP | O
 if ($LASTEXITCODE -ge 8) { throw "robocopy falhou ($LASTEXITCODE)" }
 Write-Host "Skills instaladas em $dest"
 Get-ChildItem $dest -Directory | Select-Object -ExpandProperty Name
+
+# Playwright CLI (a skill playwright-cli precisa da ferramenta instalada)
+$ErrorActionPreference = "Continue"
+if (Get-Command npm -ErrorAction SilentlyContinue) {
+  npm install -g @playwright/cli@latest
+  if (Get-Command playwright-cli -ErrorAction SilentlyContinue) { Write-Host "Playwright CLI pronto: $(playwright-cli --version)" }
+} else {
+  Write-Host "Node.js nao encontrado. Rode: winget install --id OpenJS.NodeJS.LTS -e   depois feche e abra o PowerShell e rode esta linha de novo."
+}
