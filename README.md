@@ -87,7 +87,3 @@ Vale conhecer, mas não está copiado aqui:
 - **remotion-dev/skills** (oficial do Remotion): o repositório não traz licença, e o Remotion pede licença de empresa acima de 3 pessoas.
 - **vibe-motion/skills** e **iart-ai/motion-skills** (50 skills): bem avaliadas no teste da lista awesome-claude-video-skills; a vibe-motion não tem licença.
 - Lista com teste de 16 skills de vídeo lado a lado: github.com/zhuyansen/awesome-claude-video-skills
-
-## Conectores
-
-- `conectores/gemini-imagens/`: servidor MCP próprio que gera e edita imagens com o Gemini (Nano Banana), publicado na Vercel no projeto `gemini-imagens`. A chave e o segredo do endereço ficam só nas variáveis da Vercel, nunca aqui.
