@@ -87,3 +87,20 @@ Vale conhecer, mas não está copiado aqui:
 - **remotion-dev/skills** (oficial do Remotion): o repositório não traz licença, e o Remotion pede licença de empresa acima de 3 pessoas.
 - **vibe-motion/skills** e **iart-ai/motion-skills** (50 skills): bem avaliadas no teste da lista awesome-claude-video-skills; a vibe-motion não tem licença.
 - Lista com teste de 16 skills de vídeo lado a lado: github.com/zhuyansen/awesome-claude-video-skills
+
+## Marketing e anúncios (05/11/2026)
+
+Copiadas sem alteração, com a licença do autor dentro de cada pasta.
+
+| Skill | Origem | Licença | Pra quê |
+| --- | --- | --- | --- |
+| `product-marketing`, `ads`, `ad-creative`, `copywriting`, `copy-editing`, `cro`, `offers`, `lead-magnets`, `marketing-psychology`, `conversion-tracking`, `analytics`, `attribution`, `ab-testing`, `social`, `image`, `sms`, `customer-research`, `competitor-profiling`, `reverse-engineer-marketing` | coreyhaines31/marketingskills, 88c79f6 (19 das 53; a pasta `tools/` é a mesma do repositório dele) | MIT | Contexto do cliente, tráfego pago, criativo, copy, oferta, CRO, rastreamento, WhatsApp |
+| `meta-ads` | itsfromgaurav/ultimate-meta-ads-skill, 269f204 | MIT | Playbook completo de Meta Ads (Flight Plan), corrigido para 2025/2026 |
+| `competitor-ads-analyst` | thatrebeccarae/claude-marketing, a8a63ec | MIT | Anúncios dos concorrentes na Biblioteca de Anúncios |
+
+Fica como plugin, fora daqui: **claude-ads** (AgriciDaniel/claude-ads, MIT), sistema de auditoria de contas em 12 plataformas, com núcleo em Python. No Claude Code: `/plugin marketplace add agricidaniel/claude-ads` e `/plugin install claude-ads@ai-marketing-hub-claude-ads`.
+
+Conector oficial do Meta Ads: `https://mcp.facebook.com/ads` (Configurações → Conectores → Adicionar conector personalizado).
+
+Olhadas e deixadas de fora: boringmarketer/meta-ads-skill e mugurc/meta-ads-skill (mesmo nome `meta-ads`; a primeira cobre a API, que o conector oficial resolve, e a segunda é para app), Varnan-Tech/meta-ads-skill (sem licença), o resto da thatrebeccarae/claude-marketing (sobreposta à de Corey Haines).
+
