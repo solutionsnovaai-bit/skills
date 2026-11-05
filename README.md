@@ -1,6 +1,6 @@
 # skills
 
-Skills originais de design de site, motion e vídeo, copiadas sem alteração dos repositórios dos autores. A única coisa acrescentada foi o arquivo de licença do autor dentro da pasta da skill, quando no original ele ficava na raiz do repositório.
+Skills originais de design de site, motion e vídeo, copiadas sem alteração dos repositórios dos autores. A exceção é `referencia-lando-norris`: uma ficha nossa sobre o site do Lando Norris, usada como referência visual quando o projeto pedir, nunca como padrão. A única coisa acrescentada foi o arquivo de licença do autor dentro da pasta da skill, quando no original ele ficava na raiz do repositório.
 
 ## O que tem
 
@@ -31,6 +31,10 @@ Skills originais de design de site, motion e vídeo, copiadas sem alteração do
 | Tejashmakwana/motionmaxxing | 8c8ec0f |
 | VoltAgent/awesome-design-md | fcc7028 |
 | @playwright/cli | 0.1.23 |
+
+## Referências visuais
+
+`referencias/`: prints, rolagens em GIF e raio-x técnico dos sites estudados (Lando Norris completo, Forge Automotive, Spyker, A24, Cartier e outros). São inspiração, não lei. A paleta de cada projeto sai do Coolors.
 
 ## Como usar
 
