@@ -2,6 +2,8 @@
 
 Capturadas em 04/11/2026 no Chrome, a 1366 px de largura. Cada pasta tem os quadros em JPG (`01.jpg`, `02.jpg`…) e a rolagem em GIF (`rolagem.gif`). O `mural.jpg` mostra o primeiro quadro de todas lado a lado.
 
+O **Lando Norris** está completo: a home inteira, do topo ao rodapé (`lando-norris/home-completa/`, 12 quadros), a página On Track (`lando-norris/on-track/`) e o estudo de como é feito em `lando-norris/TECNICA.md`. O raio-x técnico de todos (stack, 3D, fontes, curvas) está em `TECNICA-GERAL.md`.
+
 Servem de estudo de estrutura, ritmo e motion. Num site de cliente, troca cor, texto, foto e marca: nada daqui é copiado como está.
 
 ## Sites
