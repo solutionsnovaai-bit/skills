@@ -59,3 +59,16 @@ Copiadas sem alteração, com a licença do autor dentro de cada pasta.
 | `rive-web`, `rive-react` | stevysmith/rive-skills, 2f426a1 | MIT | Runtime do Rive (o que o Lando Norris usa na transição e na assinatura) |
 
 Olhadas e deixadas de fora: cinematic-scrub-landing (hoodini; fórmula pronta de fonte e seção que bate de frente com a taste-skill), freshtechbro/claudedesignskills e iart-ai/web-animation-skills (genéricas), OpenAEC Three.js (24 skills, sobreposta à three-best-practices).
+
+## Motion design e vídeo (04/11/2026, segunda leva)
+
+| Skill | Origem | Licença | Pra quê |
+| --- | --- | --- | --- |
+| `animation-principles`, `motion-art-direction`, `logo-animation`, `after-effects`, `beat-sync-editing`, `color-motion`, `shot-composition`, `motion-background`, `remotion-video` | iart-ai/motion-design-skills, 3c129f7 | MIT | Fundamentos de motion design pra Reels, logo animado e vídeo de marca |
+| `bang-motion` | bangtutorial/bang-motion, c1aa65e | MIT | Abertura, promo, bumper e tipografia cinética em HTML + GSAP (+ Three.js), 16:9 ou 9:16. O texto da skill está em indonésio |
+
+Vale conhecer, mas não está copiado aqui:
+- **lemo-opuscar** (github.com/lemomo-ai/lemo-opuscar, MIT, 12 mil estrelas): 66 estilos de filme feitos em código (óleo, aquarela, ukiyo-e, produto explodido). Instala como plugin, porque a skill depende do resto do repositório.
+- **remotion-dev/skills** (oficial do Remotion): o repositório não traz licença, e o Remotion pede licença de empresa acima de 3 pessoas.
+- **vibe-motion/skills** e **iart-ai/motion-skills** (50 skills): bem avaliadas no teste da lista awesome-claude-video-skills; a vibe-motion não tem licença.
+- Lista com teste de 16 skills de vídeo lado a lado: github.com/zhuyansen/awesome-claude-video-skills

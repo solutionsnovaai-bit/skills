@@ -23,6 +23,8 @@ As pastas de `.claude/skills/` são as skills originais dos autores, sem altera�
 
 `hyperframes` (ler primeiro) com `motion-doctrine`, `cut-the-curve`, `seam-craft`, `captions-overlay`, `media-use`, `reverse-any-video` e `hyperframes-registry`; `motionmaxxing` para filmes de motion de nível profissional.
 
+Fundamentos de motion design (timing, direção de arte, logo animado, After Effects, ritmo na batida, cor, enquadramento, fundos): `animation-principles`, `motion-art-direction`, `logo-animation`, `after-effects`, `beat-sync-editing`, `color-motion`, `shot-composition`, `motion-background`, `remotion-video`. Abertura, promo e tipografia cinética no navegador com GSAP: `bang-motion`.
+
 ## Regra de entrega
 
 Este repositório é ferramenta interna. Nada daqui (nome do repositório, da agência ou do dono) vai para entregáveis de cliente.
