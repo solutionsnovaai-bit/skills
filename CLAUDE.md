@@ -10,7 +10,7 @@ As pastas de `.claude/skills/` são as skills originais dos autores, sem altera�
    - Desempenho: `animation-performance`, `remove-animations`, `mobile-native`
    - Auditoria antes de entregar: `web-design-guidelines` e `break-ui`
    - Conferência no navegador, celular e desktop: `playwright-cli`
-2. **Pergunte no começo se o projeto usa o site do Lando Norris como referência visual** (`referencia-lando-norris`). É referência, não padrão.
+2. **Lando Norris (`referencia-lando-norris`)**: use quando o pedido falar desse estilo ou quando você julgar que o projeto ganha com ele. Nunca pergunte se é pra usar. É referência, não padrão.
 3. **A paleta é escolhida por projeto**, a partir da marca do cliente, e montada e testada no Coolors (coolors.co). Nenhuma referência dita cor.
 4. **As referências de `referencias/` são inspiração, não lei.** Estude a estrutura, o ritmo e o motion, e troque cor, texto, foto e marca.
 5. Design system de base: copiar um arquivo de `design-md/` pra raiz do projeto como `DESIGN.md` e adaptar.

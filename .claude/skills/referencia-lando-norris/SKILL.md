@@ -1,6 +1,6 @@
 ---
 name: referencia-lando-norris
-description: Use no começo de todo site, landing page ou redesign. Pergunte se o projeto vai usar o site do Lando Norris (landonorris.com) como referência visual; se sim, use este detalhamento como inspiração (nunca como regra), junto com todas as skills originais de design e de desempenho.
+description: Ficha do site do Lando Norris (landonorris.com) como referência visual de site e landing page. Use quando o pedido falar desse estilo ou quando, a seu julgamento, o projeto ganhar com ele (esporte, carro, marca pessoal, evento). Nunca pergunte ao usuário se deve usar; é inspiração, nunca regra.
 ---
 
 # Referência: Lando Norris (landonorris.com)
@@ -9,7 +9,7 @@ O site mais forte que estudamos, do começo ao fim. Ele é **referência, não p
 
 ## Antes de começar qualquer site
 
-1. **Pergunte:** "Esse projeto usa o Lando Norris como referência visual?" Se a resposta for não, siga sem este arquivo.
+1. **Não pergunte se é pra usar.** Use quando o pedido falar desse estilo, ou quando você julgar que o projeto ganha com ele. Na dúvida, siga sem este arquivo.
 2. **Use todas as skills do repositório**, as de design e as de desempenho, como estão escritas:
    - Direção e construção: `taste-skill`, `impeccable`
    - Motion e polimento: `apple-design`, `emil-design-eng`, `animate`, `choreograph`, `review-animations`
