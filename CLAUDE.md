@@ -1,6 +1,6 @@
 # Repositório de skills
 
-As skills de terceiros estão em `.claude/skills/`. Os guias próprios são `referencia-lando-norris`, `assets-para-sites` e `legendas-de-reels`.
+As skills de terceiros estão em `.claude/skills/`. Os guias da Nova incluem `referencia-lando-norris`, `assets-para-sites`, `legendas-de-reels` e a [seleção de motion e design](referencias/motion-design-2026-11.md).
 
 ## Ao criar qualquer site, landing page ou redesign
 
@@ -24,6 +24,10 @@ As skills de terceiros estão em `.claude/skills/`. Os guias próprios são `ref
 Para transcrever ou sincronizar fala, comece em `legendas-de-reels`. Para composições em HyperFrames, consulte `hyperframes` e combine conforme a necessidade com `motion-doctrine`, `cut-the-curve`, `seam-craft`, `captions-overlay`, `media-use`, `reverse-any-video` e `hyperframes-registry`; `motionmaxxing` para filmes de motion de nível profissional.
 
 Fundamentos de motion design (timing, direção de arte, logo animado, After Effects, ritmo na batida, cor, enquadramento, fundos): `animation-principles`, `motion-art-direction`, `logo-animation`, `after-effects`, `beat-sync-editing`, `color-motion`, `shot-composition`, `motion-background`, `remotion-video`. Abertura, promo e tipografia cinética no navegador com GSAP: `bang-motion`.
+
+## Especialidades adicionais
+
+Usar o índice de `referencias/motion-design-2026-11.md` para localizar a técnica necessária. Para layout compartilhado em React, usar `motion-layout-compartilhado`; para Lenis com GSAP, `lenis-com-scrolltrigger`; para produto 3D, `produto-3d-gltf` e, quando houver direção de câmera, `camera-de-produto-theatre`. Para design system do código, usar `extrair-design-do-site`. Para vídeo reativo ao áudio, usar `audio-reativo-remotion`. Selecionar o guia pelo pedido, sem exigir que o usuário o nomeie.
 
 ## Regra de entrega
 

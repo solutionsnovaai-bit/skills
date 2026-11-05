@@ -1,6 +1,6 @@
 # skills
 
-Acervo de design de sites, motion e vídeo. As skills de terceiros são cópias das fontes indicadas abaixo, com a licença do autor quando disponível. A ficha `referencia-lando-norris` e os dois guias compartilhados da seção seguinte são da Nova.
+Acervo de design de sites, motion e vídeo. As skills de terceiros são cópias das fontes indicadas abaixo, com a licença do autor quando disponível. A ficha `referencia-lando-norris` e os guias compartilhados são da Nova, com fontes e eventuais arquivos de terceiros identificados em cada pasta.
 
 ## Guias compartilhados da Nova
 
@@ -9,7 +9,11 @@ Acervo de design de sites, motion e vídeo. As skills de terceiros são cópias 
 | [Assets para sites](.claude/skills/assets-para-sites/SKILL.md) | Preparar hero desktop/mobile, preservar produto e exportar WebP localmente. | [OpenAI Creative Production](https://github.com/openai/plugins/tree/main/plugins/creative-production/skills/produce) |
 | [Legendas de Reels](.claude/skills/legendas-de-reels/SKILL.md) | Reaproveitar ou transcrever fala, sincronizar SRT e conferir as legendas. | [OpenAI Whisper](https://github.com/openai/whisper) e [Remotion Captions](https://github.com/openai/plugins/tree/main/plugins/remotion/skills/remotion-captions) |
 
-Os dois guias usam o formato `SKILL.md`. O conteúdo fica em `.claude/skills/`; `.agents/skills/` contém os atalhos de descoberta do Codex para esses dois guias. A execução usa as ferramentas disponíveis em cada sessão.
+Os guias compartilhados usam o formato `SKILL.md`. O conteúdo fica em `.claude/skills/`; `.agents/skills/` contém os atalhos de descoberta do Codex. A execução usa as ferramentas disponíveis em cada sessão.
+
+## Novas referências de motion e design
+
+**78 skills no acervo.** A [seleção de 05/11/2026](referencias/motion-design-2026-11.md) acrescenta 15 especialidades de Motion, Lenis, Codrops, LottieFiles, Anime.js, Google Labs, Theatre.js, glTF Transform, Motion Canvas, Remotion, OpenColorIO e MapLibre. As fontes e a aplicação de cada guia estão no índice.
 
 ## O que tem
 
@@ -48,7 +52,7 @@ Os dois guias usam o formato `SKILL.md`. O conteúdo fica em `.claude/skills/`; 
 ## Como usar
 
 - **ChatGPT com GitHub conectado:** as rotinas pessoais da Nova consultam os guias relevantes deste acervo quando o pedido combina com a descrição.
-- **Codex em um checkout do projeto:** as duas skills compartilhadas aparecem em `.agents/skills/` quando o checkout preserva os links simbólicos.
+- **Codex em um checkout do projeto:** os guias compartilhados aparecem em `.agents/skills/` quando o checkout preserva os links simbólicos.
 - **Claude Code em um checkout do projeto:** os guias ficam em `.claude/skills/`. No aplicativo Claude, o mecanismo de habilitação depende da modalidade de sessão.
 - **Notebook (Claude Code):** rodar `scripts/instalar-notebook.ps1` no PowerShell. Ele clona ou atualiza este repositório em `%USERPROFILE%\skills` e copia as skills pra `%USERPROFILE%\.claude\skills`. Rodar de novo sempre que o repositório for atualizado.
 
