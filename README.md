@@ -47,7 +47,9 @@ Os dois guias usam o formato `SKILL.md`. O conteúdo fica em `.claude/skills/`; 
 
 ## Como usar
 
-- **Sessões na nuvem (celular, app):** conectar este repositório na sessão. As skills de `.claude/skills/` carregam sozinhas.
+- **ChatGPT com GitHub conectado:** as rotinas pessoais da Nova consultam os guias relevantes deste acervo quando o pedido combina com a descrição.
+- **Codex em um checkout do projeto:** as duas skills compartilhadas aparecem em `.agents/skills/` quando o checkout preserva os links simbólicos.
+- **Claude Code em um checkout do projeto:** os guias ficam em `.claude/skills/`. No aplicativo Claude, o mecanismo de habilitação depende da modalidade de sessão.
 - **Notebook (Claude Code):** rodar `scripts/instalar-notebook.ps1` no PowerShell. Ele clona ou atualiza este repositório em `%USERPROFILE%\skills` e copia as skills pra `%USERPROFILE%\.claude\skills`. Rodar de novo sempre que o repositório for atualizado.
 
 ## Atualizar
