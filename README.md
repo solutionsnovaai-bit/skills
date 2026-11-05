@@ -1,6 +1,15 @@
 # skills
 
-Skills originais de design de site, motion e vídeo, copiadas sem alteração dos repositórios dos autores. A exceção é `referencia-lando-norris`: uma ficha nossa sobre o site do Lando Norris, usada como referência visual quando o projeto pedir, nunca como padrão. A única coisa acrescentada foi o arquivo de licença do autor dentro da pasta da skill, quando no original ele ficava na raiz do repositório.
+Acervo de design de sites, motion e vídeo. As skills de terceiros são cópias das fontes indicadas abaixo, com a licença do autor quando disponível. A ficha `referencia-lando-norris` e os dois guias compartilhados da seção seguinte são da Nova.
+
+## Guias compartilhados da Nova
+
+| Skill | Para que serve | Fontes |
+| --- | --- | --- |
+| [Assets para sites](.claude/skills/assets-para-sites/SKILL.md) | Preparar hero desktop/mobile, preservar produto e exportar WebP localmente. | [OpenAI Creative Production](https://github.com/openai/plugins/tree/main/plugins/creative-production/skills/produce) |
+| [Legendas de Reels](.claude/skills/legendas-de-reels/SKILL.md) | Reaproveitar ou transcrever fala, sincronizar SRT e conferir as legendas. | [OpenAI Whisper](https://github.com/openai/whisper) e [Remotion Captions](https://github.com/openai/plugins/tree/main/plugins/remotion/skills/remotion-captions) |
+
+Os dois guias usam o formato `SKILL.md`. O conteúdo fica em `.claude/skills/`; `.agents/skills/` contém os atalhos de descoberta do Codex para esses dois guias. A execução usa as ferramentas disponíveis em cada sessão.
 
 ## O que tem
 

@@ -1,10 +1,10 @@
 # Repositório de skills
 
-As pastas de `.claude/skills/` são as skills originais dos autores, sem alteração. Siga cada uma como está escrita. A única pasta nossa é `referencia-lando-norris`, que é só uma ficha de referência.
+As skills de terceiros estão em `.claude/skills/`. Os guias próprios são `referencia-lando-norris`, `assets-para-sites` e `legendas-de-reels`.
 
 ## Ao criar qualquer site, landing page ou redesign
 
-1. **Use todas as skills, as de design e as de desempenho**, cada uma na sua etapa:
+1. **Escolha os guias pela tarefa.** Para uma landing simples, comece com direção visual e revisão no celular. Consulte uma especialidade adicional quando houver uma decisão concreta sobre ela. Para preparar imagens de produto, heroes ou variantes WebP, use `assets-para-sites`. O mapa abaixo indica onde procurar.
    - Direção e construção: `taste-skill` e `impeccable`
    - Motion e polimento: `apple-design`, `emil-design-eng`, `animate`, `choreograph`, `review-animations`
    - GSAP (skills oficiais da GreenSock): `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-plugins`, `gsap-utils`, `gsap-react`, `gsap-frameworks`, `gsap-performance`
@@ -21,7 +21,7 @@ As pastas de `.claude/skills/` são as skills originais dos autores, sem altera�
 
 ## Vídeo e motion graphics
 
-`hyperframes` (ler primeiro) com `motion-doctrine`, `cut-the-curve`, `seam-craft`, `captions-overlay`, `media-use`, `reverse-any-video` e `hyperframes-registry`; `motionmaxxing` para filmes de motion de nível profissional.
+Para transcrever ou sincronizar fala, comece em `legendas-de-reels`. Para composições em HyperFrames, consulte `hyperframes` e combine conforme a necessidade com `motion-doctrine`, `cut-the-curve`, `seam-craft`, `captions-overlay`, `media-use`, `reverse-any-video` e `hyperframes-registry`; `motionmaxxing` para filmes de motion de nível profissional.
 
 Fundamentos de motion design (timing, direção de arte, logo animado, After Effects, ritmo na batida, cor, enquadramento, fundos): `animation-principles`, `motion-art-direction`, `logo-animation`, `after-effects`, `beat-sync-editing`, `color-motion`, `shot-composition`, `motion-background`, `remotion-video`. Abertura, promo e tipografia cinética no navegador com GSAP: `bang-motion`.
 

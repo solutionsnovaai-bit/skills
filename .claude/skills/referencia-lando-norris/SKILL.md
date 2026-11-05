@@ -10,7 +10,7 @@ O site mais forte que estudamos, do começo ao fim. Ele é **referência, não p
 ## Antes de começar qualquer site
 
 1. **Não pergunte se é pra usar.** Use quando o pedido falar desse estilo, ou quando você julgar que o projeto ganha com ele. Na dúvida, siga sem este arquivo.
-2. **Use todas as skills do repositório**, as de design e as de desempenho, como estão escritas:
+2. **Consulte os guias necessários à etapa.** Use a lista abaixo para escolher direção, movimento ou revisão conforme o projeto:
    - Direção e construção: `taste-skill`, `impeccable`
    - Motion e polimento: `apple-design`, `emil-design-eng`, `animate`, `choreograph`, `review-animations`
    - Desempenho: `animation-performance`, `remove-animations`, `mobile-native`
