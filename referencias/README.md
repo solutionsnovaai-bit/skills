@@ -19,13 +19,14 @@ Servem de estudo de estrutura, ritmo e motion. Num site de cliente, troca cor, t
 | `dirt` | [dirtverse.co](https://dirtverse.co/) | recent.design | Carrossel de esferas com vídeo e 3D dentro; abaixo, grade de cases em vídeo de tamanhos diferentes | Portfólio da agência, estúdio criativo |
 | `podium` | [podium.global](https://podium.global/) | recent.design | Abertura com a mancha do logo crescendo; cartões de vídeo curvados em 3D sobre fundo preto | Produtora de vídeo, esporte, portfólio de vídeo |
 | `displace` | [displace.agency](https://displace.agency/) | recent.design | Hero em vídeo com preço na cara ("From $2,900"), case com resultado real, oferta com data de entrega e botão de conversa por voz | Página de venda da própria agência (estrutura comercial, não visual) |
+| `icebug` | [icebug.com](https://www.icebug.com/) | recent.design | Loja com hero de foto cheia e título enorme em sans, menu em mono maiúsculo, grade de produtos em fundo cinza com preço em mono, cartões de categoria com foto vertical | E-commerce: semijoia, vela, calçado, roupa |
 | `interfere` | [interfere.com](https://interfere.com/) | recent.design | SaaS limpo: interface real do produto no hero, frase com palavras destacadas em pílulas de cor | Painéis, sistemas, páginas de produto digital |
 
 ## Sem print (vale abrir no link)
 
 - **Shopify Editions Winter '26, "The Renaissance Edition"**: [shopify.com/editions/winter2026](https://www.shopify.com/editions/winter2026). A mais cinematográfica do lote: linhas de proporção áurea se desenham com o scroll, fundo vai do preto pro creme, o título encolhe pro canto e vira índice de capítulos em algarismo romano, e os produtos aparecem sobre texturas de pintura renascentista. A página tem uns 47 mil pixels e não terminou de carregar no notebook pra gravar.
 - **Pegassi, Ascension** ([ascension.pegassi.be](https://ascension.pegassi.be/)): capa centralizada com grão de filme; o scroll fica preso numa cena e o print saiu parado.
-- **nothing-to-watch.port80.ch** e **icebug.com**: abrem com tela de escolha (aparelho ou país) e cookies cobrindo tudo.
+- **nothing-to-watch.port80.ch**: abre com uma tela de escolha de aparelho antes do conteúdo.
 
 ## Componentes pra testar
 
