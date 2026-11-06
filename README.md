@@ -2,6 +2,10 @@
 
 Acervo de design de sites, motion e vídeo. As skills de terceiros são cópias das fontes indicadas abaixo, com a licença do autor quando disponível. A ficha `referencia-lando-norris` e os guias compartilhados são da Nova, com fontes e eventuais arquivos de terceiros identificados em cada pasta.
 
+## Comandos Higgsfield priorizados
+
+**99 skills no acervo + 15 comandos nativos catalogados.** A [seleção de comandos](referencias/higgsfield-comandos-2026-11.md) registra os efeitos, requisitos e restrições de custo conferidos no plugin. Os comandos já estão disponíveis no Higgsfield; esta curadoria não os duplica como novas skills. Nenhuma geração foi executada.
+
 ## Guias compartilhados da Nova
 
 | Skill | Para que serve | Fontes |
@@ -13,7 +17,7 @@ Os guias compartilhados usam o formato `SKILL.md`. O conteúdo fica em `.claude/
 
 ## Novas referências de motion e design
 
-**78 skills no acervo.** A [seleção de 05/11/2026](referencias/motion-design-2026-11.md) acrescenta 15 especialidades de Motion, Lenis, Codrops, LottieFiles, Anime.js, Google Labs, Theatre.js, glTF Transform, Motion Canvas, Remotion, OpenColorIO e MapLibre. As fontes e a aplicação de cada guia estão no índice.
+**A leva de motion levou o acervo a 78 skills; com marketing, são 99.** A [seleção de 05/11/2026](referencias/motion-design-2026-11.md) acrescenta 15 especialidades de Motion, Lenis, Codrops, LottieFiles, Anime.js, Google Labs, Theatre.js, glTF Transform, Motion Canvas, Remotion, OpenColorIO e MapLibre. As fontes e a aplicação de cada guia estão no índice.
 
 ## O que tem
 
