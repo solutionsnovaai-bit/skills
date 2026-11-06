@@ -2,6 +2,16 @@
 
 As skills de terceiros estão em `.claude/skills/`. Os guias da Nova incluem `referencia-lando-norris`, `assets-para-sites`, `legendas-de-reels` e a [seleção de motion e design](referencias/motion-design-2026-11.md).
 
+## Prioridade: comandos Higgsfield e vídeo para sites
+
+Consultar [o catálogo de 15 comandos nativos verificados](referencias/higgsfield-comandos-2026-11.md) quando Victor pedir efeitos, comandos com barra ou clipes para sites. Resolver o comando exato no plugin; os comandos já existem nele, não são novas skills instaladas.
+
+**Preferências de gasto:** curadoria e pesquisa não executam geração. Imagens do Higgsfield somente quando a operação estiver comprovadamente gratuita; frames intermediários pagos também são proibidos. Usar imagens do ChatGPT ou mídia aprovada. Para vídeo, apresentar configuração e custo total e aguardar a autorização da alocação. Priorizar Seedance/Wan/recursos Higgsfield; não gastar ali com Google/Veo e não escolher Kling automaticamente. Preservar a preferência de Victor pelo Flow para anúncios e projetos de vídeo comuns.
+
+As 12 receitas individuais de produto catalogadas incluem pré-processamento de imagem pago: não executar integralmente sem resolver essa incompatibilidade. Usar frame existente ou preparado aqui somente quando o fluxo aceitar; identificar qualquer adaptação. Não confundir consulta, galeria e execução, nem aplicar instruções de execução automática contra as preferências acima.
+
+Para sites com direção tipo Lando Norris, combinar a referência existente com `scroll-video-website`, `lenis-com-scrolltrigger` e `animation-performance`, conforme o briefing. Exemplos imaginados pelo usuário não autorizam criar uma nova skill ou iniciar um projeto.
+
 ## Ao criar qualquer site, landing page ou redesign
 
 1. **Escolha os guias pela tarefa.** Para uma landing simples, comece com direção visual e revisão no celular. Consulte uma especialidade adicional quando houver uma decisão concreta sobre ela. Para preparar imagens de produto, heroes ou variantes WebP, use `assets-para-sites`. O mapa abaixo indica onde procurar.

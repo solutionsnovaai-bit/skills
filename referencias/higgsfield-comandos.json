@@ -1,0 +1,368 @@
+{
+  "verified_on": "2026-11-05",
+  "source": "Higgsfield plugin recipe resolver",
+  "generation_jobs_submitted": 0,
+  "higgsfield_credits_spent": 0,
+  "commands": [
+    {
+      "command": "/motion",
+      "kind": "Galeria",
+      "effect_pt_br": "Catálogo de animações de produto",
+      "use_pt_br": "Explorar movimentos antes de escolher um preset.",
+      "priority": "alta",
+      "verification": "recipe_read_only",
+      "verified_on": "2026-11-05",
+      "native_output": null,
+      "recipe_defaults": null,
+      "preprocessing_image": {
+        "present": false
+      },
+      "execution_status": "not_executed",
+      "constraint": "Browsing only until a specific run and cost are authorized."
+    },
+    {
+      "command": "/effects",
+      "kind": "Galeria",
+      "effect_pt_br": "Catálogo de efeitos visuais",
+      "use_pt_br": "Descobrir efeitos prontos e seus requisitos.",
+      "priority": "alta",
+      "verification": "recipe_read_only",
+      "verified_on": "2026-11-05",
+      "native_output": null,
+      "recipe_defaults": null,
+      "preprocessing_image": {
+        "present": false
+      },
+      "execution_status": "not_executed",
+      "constraint": "Browsing only until a specific run and cost are authorized."
+    },
+    {
+      "command": "/genjutsu",
+      "kind": "Galeria e transformação",
+      "effect_pt_br": "Transferência de movimento ou troca de elementos",
+      "use_pt_br": "Usar referências próprias; consultar o modo e a elegibilidade de eventual geração gratuita.",
+      "priority": "alta",
+      "verification": "recipe_read_only",
+      "verified_on": "2026-11-05",
+      "native_output": null,
+      "recipe_defaults": null,
+      "preprocessing_image": {
+        "present": false
+      },
+      "execution_status": "not_executed",
+      "constraint": "Browsing only until a specific run and cost are authorized."
+    },
+    {
+      "command": "/push-in",
+      "kind": "Vídeo de produto",
+      "effect_pt_br": "Aproximação suave de câmera",
+      "use_pt_br": "Revelação de detalhes e aproximação do assunto.",
+      "priority": "alta",
+      "verification": "recipe_read_only",
+      "verified_on": "2026-11-05",
+      "native_output": "video",
+      "recipe_defaults": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "3:4",
+        "duration": 6,
+        "resolution": "1080p",
+        "mode": "std",
+        "bitrate_mode": "high",
+        "generate_audio": false
+      },
+      "preprocessing_image": {
+        "present": true,
+        "model": "nano_banana_pro",
+        "paid_execution_allowed": false
+      },
+      "execution_status": "not_executed",
+      "constraint": "Original recipe requires image preprocessing; do not execute unchanged under Victor's image-credit restriction."
+    },
+    {
+      "command": "/pull-back",
+      "kind": "Vídeo de produto",
+      "effect_pt_br": "Afastamento para revelar a cena",
+      "use_pt_br": "Abrir o enquadramento e mostrar contexto.",
+      "priority": "alta",
+      "verification": "recipe_read_only",
+      "verified_on": "2026-11-05",
+      "native_output": "video",
+      "recipe_defaults": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "3:4",
+        "duration": 6,
+        "resolution": "1080p",
+        "mode": "std",
+        "bitrate_mode": "high",
+        "generate_audio": false
+      },
+      "preprocessing_image": {
+        "present": true,
+        "model": "nano_banana_pro",
+        "paid_execution_allowed": false
+      },
+      "execution_status": "not_executed",
+      "constraint": "Original recipe requires image preprocessing; do not execute unchanged under Victor's image-credit restriction."
+    },
+    {
+      "command": "/crane-reveal",
+      "kind": "Vídeo de produto",
+      "effect_pt_br": "Revelação com movimento vertical",
+      "use_pt_br": "Apresentação vertical do assunto.",
+      "priority": "alta",
+      "verification": "recipe_read_only",
+      "verified_on": "2026-11-05",
+      "native_output": "video",
+      "recipe_defaults": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "3:4",
+        "duration": 6,
+        "resolution": "1080p",
+        "mode": "std",
+        "bitrate_mode": "high",
+        "generate_audio": false
+      },
+      "preprocessing_image": {
+        "present": true,
+        "model": "nano_banana_pro",
+        "paid_execution_allowed": false
+      },
+      "execution_status": "not_executed",
+      "constraint": "Original recipe requires image preprocessing; do not execute unchanged under Victor's image-credit restriction."
+    },
+    {
+      "command": "/topdown-dive",
+      "kind": "Vídeo de produto",
+      "effect_pt_br": "Vista superior avançando para um close",
+      "use_pt_br": "Mudança controlada de ponto de vista.",
+      "priority": "media",
+      "verification": "recipe_read_only",
+      "verified_on": "2026-11-05",
+      "native_output": "video",
+      "recipe_defaults": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "3:4",
+        "duration": 6,
+        "resolution": "1080p",
+        "mode": "std",
+        "bitrate_mode": "high",
+        "generate_audio": false
+      },
+      "preprocessing_image": {
+        "present": true,
+        "model": "nano_banana_pro",
+        "paid_execution_allowed": false
+      },
+      "execution_status": "not_executed",
+      "constraint": "Original recipe requires image preprocessing; do not execute unchanged under Victor's image-credit restriction."
+    },
+    {
+      "command": "/macro-glide",
+      "kind": "Vídeo de produto",
+      "effect_pt_br": "Deslocamento próximo à superfície",
+      "use_pt_br": "Detalhes de acabamento e material.",
+      "priority": "alta",
+      "verification": "recipe_read_only",
+      "verified_on": "2026-11-05",
+      "native_output": "video",
+      "recipe_defaults": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "3:4",
+        "duration": 6,
+        "resolution": "1080p",
+        "mode": "std",
+        "bitrate_mode": "high",
+        "generate_audio": false
+      },
+      "preprocessing_image": {
+        "present": true,
+        "model": "nano_banana_pro",
+        "paid_execution_allowed": false
+      },
+      "execution_status": "not_executed",
+      "constraint": "Original recipe requires image preprocessing; do not execute unchanged under Victor's image-credit restriction."
+    },
+    {
+      "command": "/light-sweep",
+      "kind": "Vídeo de produto",
+      "effect_pt_br": "Faixa de luz percorrendo o produto",
+      "use_pt_br": "Revelação com iluminação e reflexos.",
+      "priority": "alta",
+      "verification": "recipe_read_only",
+      "verified_on": "2026-11-05",
+      "native_output": "video",
+      "recipe_defaults": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "3:4",
+        "duration": 6,
+        "resolution": "1080p",
+        "mode": "std",
+        "bitrate_mode": "high",
+        "generate_audio": false
+      },
+      "preprocessing_image": {
+        "present": true,
+        "model": "nano_banana_pro",
+        "paid_execution_allowed": false
+      },
+      "execution_status": "not_executed",
+      "constraint": "Original recipe requires image preprocessing; do not execute unchanged under Victor's image-credit restriction."
+    },
+    {
+      "command": "/product-spin",
+      "kind": "Vídeo de produto",
+      "effect_pt_br": "Rotação de 360 graus",
+      "use_pt_br": "Apresentação do produto por diferentes ângulos.",
+      "priority": "media",
+      "verification": "recipe_read_only",
+      "verified_on": "2026-11-05",
+      "native_output": "video",
+      "recipe_defaults": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "3:4",
+        "duration": 6,
+        "resolution": "1080p",
+        "mode": "std",
+        "bitrate_mode": "high",
+        "generate_audio": false
+      },
+      "preprocessing_image": {
+        "present": true,
+        "model": "nano_banana_pro",
+        "paid_execution_allowed": false
+      },
+      "execution_status": "not_executed",
+      "constraint": "Original recipe requires image preprocessing; do not execute unchanged under Victor's image-credit restriction."
+    },
+    {
+      "command": "/floating-roll",
+      "kind": "Vídeo de produto",
+      "effect_pt_br": "Rotação lenta em suspensão",
+      "use_pt_br": "Movimento de produto com aparência de ausência de gravidade.",
+      "priority": "media",
+      "verification": "recipe_read_only",
+      "verified_on": "2026-11-05",
+      "native_output": "video",
+      "recipe_defaults": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "3:4",
+        "duration": 6,
+        "resolution": "1080p",
+        "mode": "std",
+        "bitrate_mode": "high",
+        "generate_audio": false
+      },
+      "preprocessing_image": {
+        "present": true,
+        "model": "nano_banana_pro",
+        "paid_execution_allowed": false
+      },
+      "execution_status": "not_executed",
+      "constraint": "Original recipe requires image preprocessing; do not execute unchanged under Victor's image-credit restriction."
+    },
+    {
+      "command": "/liquid-wrap",
+      "kind": "Vídeo de produto",
+      "effect_pt_br": "Líquido envolvendo o produto",
+      "use_pt_br": "Efeito visual de fluido.",
+      "priority": "media",
+      "verification": "recipe_read_only",
+      "verified_on": "2026-11-05",
+      "native_output": "video",
+      "recipe_defaults": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "3:4",
+        "duration": 6,
+        "resolution": "1080p",
+        "mode": "std",
+        "bitrate_mode": "high",
+        "generate_audio": false
+      },
+      "preprocessing_image": {
+        "present": true,
+        "model": "nano_banana_pro",
+        "paid_execution_allowed": false
+      },
+      "execution_status": "not_executed",
+      "constraint": "Original recipe requires image preprocessing; do not execute unchanged under Victor's image-credit restriction."
+    },
+    {
+      "command": "/impact",
+      "kind": "Vídeo de produto",
+      "effect_pt_br": "Explosão de partículas ao redor",
+      "use_pt_br": "Momento de impacto visual.",
+      "priority": "media",
+      "verification": "recipe_read_only",
+      "verified_on": "2026-11-05",
+      "native_output": "video",
+      "recipe_defaults": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "3:4",
+        "duration": 6,
+        "resolution": "1080p",
+        "mode": "std",
+        "bitrate_mode": "high",
+        "generate_audio": false
+      },
+      "preprocessing_image": {
+        "present": true,
+        "model": "nano_banana_pro",
+        "paid_execution_allowed": false
+      },
+      "execution_status": "not_executed",
+      "constraint": "Original recipe requires image preprocessing; do not execute unchanged under Victor's image-credit restriction."
+    },
+    {
+      "command": "/sunrise-pass",
+      "kind": "Vídeo de produto",
+      "effect_pt_br": "Transição do escuro para luz quente",
+      "use_pt_br": "Revelação por mudança de iluminação.",
+      "priority": "alta",
+      "verification": "recipe_read_only",
+      "verified_on": "2026-11-05",
+      "native_output": "video",
+      "recipe_defaults": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "3:4",
+        "duration": 6,
+        "resolution": "1080p",
+        "mode": "std",
+        "bitrate_mode": "high",
+        "generate_audio": false
+      },
+      "preprocessing_image": {
+        "present": true,
+        "model": "nano_banana_pro",
+        "paid_execution_allowed": false
+      },
+      "execution_status": "not_executed",
+      "constraint": "Original recipe requires image preprocessing; do not execute unchanged under Victor's image-credit restriction."
+    },
+    {
+      "command": "/whip-pan",
+      "kind": "Vídeo de produto",
+      "effect_pt_br": "Panorâmica rápida até o produto",
+      "use_pt_br": "Transição rápida; avaliar adequação ao scroll.",
+      "priority": "media",
+      "verification": "recipe_read_only",
+      "verified_on": "2026-11-05",
+      "native_output": "video",
+      "recipe_defaults": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "3:4",
+        "duration": 6,
+        "resolution": "1080p",
+        "mode": "std",
+        "bitrate_mode": "high",
+        "generate_audio": false
+      },
+      "preprocessing_image": {
+        "present": true,
+        "model": "nano_banana_pro",
+        "paid_execution_allowed": false
+      },
+      "execution_status": "not_executed",
+      "constraint": "Original recipe requires image preprocessing; do not execute unchanged under Victor's image-credit restriction."
+    }
+  ]
+}
