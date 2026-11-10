@@ -25,6 +25,13 @@ Para transcrever ou sincronizar fala, comece em `legendas-de-reels`. Para compos
 
 Fundamentos de motion design (timing, direção de arte, logo animado, After Effects, ritmo na batida, cor, enquadramento, fundos): `animation-principles`, `motion-art-direction`, `logo-animation`, `after-effects`, `beat-sync-editing`, `color-motion`, `shot-composition`, `motion-background`, `remotion-video`. Abertura, promo e tipografia cinética no navegador com GSAP: `bang-motion`.
 
+Outros formatos de vídeo feito em código: `lemo-opuscar` para um filme num estilo pronto (aquarela, ukiyo-e, newsreel, produto explodido), `claude-animation-base` para desenho animado pintado à mão com personagem, `onetake` para lançamento ou demonstração de produto em uma tomada só, e `gbro-collage-broll` para colagem de papel animada a partir de uma frase do roteiro. Cada uma tem um limite:
+
+- `onetake`: licença não comercial. Usar só em estudo, teste e projeto pessoal. Em vídeo de cliente ou da agência, só com a licença paga (onetake Pro).
+- `gbro-collage-broll`: o vídeo sai da API do Gemini, cobrada por uso. Só rodar com o custo informado e aprovado antes.
+- `lemo-opuscar`: baixa a biblioteca do autor no primeiro uso e cada filme leva de 30 a 60 minutos. Avisar antes de começar.
+- `claude-animation-base`: o Clawd é o mascote do Claude. Em vídeo de cliente, desenhar outro personagem.
+
 ## Especialidades adicionais
 
 Usar o índice de `referencias/motion-design-2026-11.md` para localizar a técnica necessária. Para layout compartilhado em React, usar `motion-layout-compartilhado`; para Lenis com GSAP, `lenis-com-scrolltrigger`; para produto 3D, `produto-3d-gltf` e, quando houver direção de câmera, `camera-de-produto-theatre`. Para design system do código, usar `extrair-design-do-site`. Para vídeo reativo ao áudio, usar `audio-reativo-remotion`. Selecionar o guia pelo pedido, sem exigir que o usuário o nomeie.
