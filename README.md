@@ -83,7 +83,6 @@ Olhadas e deixadas de fora: cinematic-scrub-landing (hoodini; fórmula pronta de
 | `bang-motion` | bangtutorial/bang-motion, c1aa65e | MIT | Abertura, promo, bumper e tipografia cinética em HTML + GSAP (+ Three.js), 16:9 ou 9:16. O texto da skill está em indonésio |
 
 Vale conhecer, mas não está copiado aqui:
-- **lemo-opuscar** (github.com/lemomo-ai/lemo-opuscar, MIT, 12 mil estrelas): 66 estilos de filme feitos em código (óleo, aquarela, ukiyo-e, produto explodido). Instala como plugin, porque a skill depende do resto do repositório.
 - **remotion-dev/skills** (oficial do Remotion): o repositório não traz licença, e o Remotion pede licença de empresa acima de 3 pessoas.
 - **vibe-motion/skills** e **iart-ai/motion-skills** (50 skills): bem avaliadas no teste da lista awesome-claude-video-skills; a vibe-motion não tem licença.
 - Lista com teste de 16 skills de vídeo lado a lado: github.com/zhuyansen/awesome-claude-video-skills
@@ -103,4 +102,24 @@ Fica como plugin, fora daqui: **claude-ads** (AgriciDaniel/claude-ads, MIT), sis
 Conector oficial do Meta Ads: `https://mcp.facebook.com/ads` (Configurações → Conectores → Adicionar conector personalizado).
 
 Olhadas e deixadas de fora: boringmarketer/meta-ads-skill e mugurc/meta-ads-skill (mesmo nome `meta-ads`; a primeira cobre a API, que o conector oficial resolve, e a segunda é para app), Varnan-Tech/meta-ads-skill (sem licença), o resto da thatrebeccarae/claude-marketing (sobreposta à de Corey Haines).
+
+## Vídeo feito em código (10/11/2026)
+
+Nenhuma destas usa modelo de vídeo por padrão: o agente escreve o código e o código vira vídeo quadro a quadro. A exceção é a `gbro-collage-broll`, que gera pela API do Gemini.
+
+| Skill | Origem | Licença | Pra quê |
+| --- | --- | --- | --- |
+| `lemo-opuscar` | lemomo-ai/lemo-opuscar, 9eb7739 (pasta `plugin/skills/lemo-opuscar`) | MIT | Filme num dos 66 estilos da biblioteca (aquarela, ukiyo-e, newsreel de 1920, produto explodido), com narração e trilha |
+| `claude-animation-base` | JohnHeibel/ClaudeAnimationBase, 0ac8bf2 (em `kit/`) | MIT | Desenho animado pintado à mão em p5.js e p5.brush, com o personagem Clawd |
+| `onetake` | feitangyuan/onetake, abb6d17 | PolyForm Noncommercial 1.0.0 | Filme de lançamento, teaser e demonstração de produto em uma tomada só, sem corte |
+| `gbro-collage-broll` | pyang5166/gbro-collage-broll, a1a4ee2 | MIT | Uma frase de uns 5 segundos do roteiro vira colagem de papel animada, em 9:16. O texto da skill está em chinês |
+
+Antes de usar:
+
+- **`onetake` é só para uso não comercial** (estudo, teste, projeto pessoal). A licença proíbe uso comercial: vídeo de cliente ou da agência exige a licença paga do onetake Pro (onetakemotion.com).
+- **`gbro-collage-broll` custa por clipe.** O vídeo sai da API do Gemini, cobrada por uso, e a imagem parada depende da ferramenta de imagem do Codex. Não há chave configurada. Só rodar com o custo informado e aprovado antes. Um guia de 07/11/2026 informa que o modelo padrão da skill (`gemini-omni-flash-preview`) foi desligado pelo Google e indica o `gemini-omni-1.2-flash`; conferir antes de usar.
+- **`lemo-opuscar` baixa a biblioteca do autor no primeiro uso**, em `~/lemo-opuscar`, e instala os pacotes dela. Pede Node 20+, ffmpeg 7+ e Python 3.11+. Segundo o autor, cada filme leva de 30 a 60 minutos de agente e os estilos foram ajustados para o Opus 5.5.
+- **`claude-animation-base`**: o `SKILL.md` de entrada foi escrito aqui e o kit em `kit/` é cópia do original. O Clawd é baseado no mascote do Claude; em vídeo de cliente, desenhar outro personagem.
+
+Ficou de fora das cópias a mídia de vitrine, que as skills não usam: do `onetake`, a pasta `assets/` e os vídeos de `cases/` (os README de cada caso ficaram); da `gbro-collage-broll`, a pasta `assets/`; do kit de animação, `docs/emotions.webp`.
 
