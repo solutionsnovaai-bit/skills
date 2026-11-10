@@ -40,7 +40,7 @@ Os guias compartilhados usam o formato `SKILL.md`. O conteúdo fica em `.claude/
 | Leonxlnx/taste-skill | 12af471 |
 | pbakaus/impeccable | 5af4319 |
 | vercel-labs/agent-skills | 1a2c79d |
-| heygen-com/hyperframes | fa318d9 |
+| heygen-com/hyperframes | 0b531bc (atualizado em 10/11/2026) |
 | Tejashmakwana/motionmaxxing | 8c8ec0f |
 | VoltAgent/awesome-design-md | fcc7028 |
 | @playwright/cli | 0.1.23 |
